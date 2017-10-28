@@ -53,6 +53,9 @@ h2 {
   font-weight: 600;
   text-transform: uppercase; }
 
+body {
+  background: #B2DFDB; }
+
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;
@@ -68,8 +71,8 @@ h2 {
       margin: auto auto 0;
       padding: 0.5rem; }
       #sideNav .navbar-brand .img-profile {
-        max-width: 10rem;
-        max-height: 10rem;
+        max-width: 12rem;
+        max-height: 12rem;
         border: 0.5rem solid rgba(255, 255, 255, 0.2); }
     #sideNav .navbar-collapse {
       display: flex;
@@ -104,7 +107,7 @@ section.resume-section {
     padding-bottom: 3rem !important; } }
 
 .bg-primary {
-  background-color: #BD5D38 !important; }
+  background-color: #00695C !important; }
 
 .text-primary {
   color: #BD5D38 !important; }
