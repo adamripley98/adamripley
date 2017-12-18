@@ -16,6 +16,10 @@
     "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
     "email": "feedback@startbootstrap.com"
   },
+  "scripts": {
+    "start": "node app",
+    "postinstall": "gulp default"
+  },
   "license": "MIT",
   "author": "Start Bootstrap",
   "contributors": [
