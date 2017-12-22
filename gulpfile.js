@@ -119,7 +119,7 @@ gulp.task('browserSync', function() {
  * Push build to gh-pages
  */
 gulp.task('deploy', function () {
-  return gulp.src("./startbootstrap-resume/**/*")
+  return gulp.src("./personalsite/**/*")
     .pipe(deploy())
 });
 
