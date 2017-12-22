@@ -118,10 +118,10 @@ gulp.task('browserSync', function() {
 /**
  * Push build to gh-pages
  */
-gulp.task('deploy', function () {
-  return gulp.src("./personalsite/**/*")
-    .pipe(deploy())
-});
+// gulp.task('deploy', function () {
+//   return gulp.src("./personalsite/**/*")
+//     .pipe(deploy())
+// });
 
 // Dev task with browserSync
 gulp.task('dev', ['browserSync', 'sass', 'minify-css', 'minify-js'], function() {
